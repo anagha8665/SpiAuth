@@ -1,0 +1,40 @@
+
+
+<h1>Register Form</h1>
+<div class="container-fluid one">
+  <img src="../../assets/images/rg.jpg" class="rounded mx-auto d-block img1" alt="...">
+
+  
+  
+  
+    
+<form [formGroup]="registerform" (ngSubmit)="signup()" method="post" class="row g-3">
+  
+  
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">Username</label>
+        <input type="text" formControlName="Username" class="form-control"  id="inputAddress">
+      </div>
+    <div class="col-md-12">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" formControlName="Email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-12">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" formControlName="Password" class="form-control" id="inputPassword4">
+    </div>
+    
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Confirm Password</label>
+      <input type="text" class="form-control" id="inputAddress2">
+    </div>
+
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary btn" >Sign in</button>
+      
+    </div>
+    <a routerLink="login">Login Here</a>
+  </form>
+</div>
+
+

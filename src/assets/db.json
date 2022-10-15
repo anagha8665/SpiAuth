@@ -1,0 +1,37 @@
+{
+  "employee": [
+    {
+      "id": 100,
+      "name": "Anagha",
+      "DOJ": "10-09-2022",
+      "salary": 25000,
+      "Email": "an@gmail.com"
+    }
+  ],
+  "users": [
+    {
+      "Username": "anagha",
+      "Email": "an@gmail.com",
+      "Password": "AN",
+      "id": 1
+    },
+    {
+      "Username": "anagha",
+      "Email": "an@gmail.com",
+      "Password": "AN",
+      "id": 2
+    },
+    {
+      "Username": "anagha",
+      "Email": "an@gmail.com",
+      "Password": "AN",
+      "id": 3
+    },
+    {
+      "Username": "nitheesh",
+      "Email": "ns@gmail.com",
+      "Password": "NS",
+      "id": 4
+    }
+  ]
+}

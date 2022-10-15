@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+.one{
+    width: 500px;
+    height: 600px;
+    margin-top:100px;
+
+}
+.btn{
+    margin-left: 200px;
+}
+h1{
+    color: red;
+    margin-left: 600px;
+}
+.img1{
+    margin-top:-60px;
+    
+
+}
