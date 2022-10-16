@@ -32,6 +32,19 @@
       "Email": "ns@gmail.com",
       "Password": "NS",
       "id": 4
+    },
+    {
+      "Username": "adithya",
+      "Email": "ad@gmail.com",
+      "Password": "AD",
+      "id": 5
     }
   ]
+  // "log": [
+  //   {
+  //     "Email": "rohith",
+  //     "password": "",
+  //     "id": 1
+  //   }
+  // ]
 }
